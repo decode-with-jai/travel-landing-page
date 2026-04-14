@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkyBound Travels | International Trips & Business Travel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">Sky<span>Bound</span></a>
+      <nav class="nav-links" id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#book">Book</a>
+        <a href="#plans">Plans</a>
+        <a href="#offers">Offers</a>
+        <a href="#tracking">Tracking</a>
+        <a href="#why-us">Why Us</a>
+        <a href="about.html">About Us</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="disclaimer.html">Disclaimer</a>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">International Tickets • Business Meetings • Honeymoon Packages</p>
+          <h1>Book flights, meetings, and dream trips worldwide in one clean place.</h1>
+          <p class="hero-text">
+            Discover premium travel plans for couples, friends, professionals, and global explorers.
+            Search routes, compare offers, track your trip, and plan your next journey with confidence.
+          </p>
+          <div class="hero-actions">
+            <a href="#book" class="btn btn-primary">Book Your Trip</a>
+            <a href="#offers" class="btn btn-outline">See Offers</a>
+          </div>
+          <div class="hero-stats">
+            <div><strong>180+</strong><span>Countries Covered</span></div>
+            <div><strong>24/7</strong><span>Travel Support</span></div>
+            <div><strong>12K+</strong><span>Monthly Bookings</span></div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="glass-card">
+            <h3>Quick Flight Search</h3>
+            <form class="booking-form">
+              <div class="form-grid">
+                <div>
+                  <label>From</label>
+                  <input type="text" placeholder="New Delhi" />
+                </div>
+                <div>
+                  <label>To</label>
+                  <input type="text" placeholder="Paris" />
+                </div>
+                <div>
+                  <label>Departure</label>
+                  <input type="date" />
+                </div>
+                <div>
+                  <label>Return</label>
+                  <input type="date" />
+                </div>
+                <div>
+                  <label>Travel Type</label>
+                  <select>
+                    <option>Honeymoon</option>
+                    <option>Friends Trip</option>
+                    <option>Business Meeting</option>
+                    <option>Solo Travel</option>
+                  </select>
+                </div>
+                <div>
+                  <label>Passengers</label>
+                  <select>
+                    <option>1 Adult</option>
+                    <option>2 Adults</option>
+                    <option>Family</option>
+                    <option>Group</option>
+                  </select>
+                </div>
+              </div>
+              <button type="button" class="btn btn-primary btn-full">Search Worldwide Tickets</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-bar">
+      <div class="container trust-items">
+        <span>Flexible booking</span>
+        <span>Corporate travel management</span>
+        <span>Luxury honeymoon options</span>
+        <span>Real-time itinerary updates</span>
+      </div>
+    </section>
+
+    <section class="section" id="book">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-tag">Booking Categories</p>
+          <h2>Travel for every kind of journey</h2>
+          <p>Whether you are flying for love, leisure, or work, this layout helps users reach the right package fast.</p>
+        </div>
+        <div class="cards-grid three">
+          <article class="card">
+            <span class="badge">Popular</span>
+            <h3>Honeymoon Escapes</h3>
+            <p>Romantic destinations, luxury stays, candlelight add-ons, airport transfers, and special couple pricing.</p>
+            <a href="#plans" class="card-link">Explore honeymoon plans →</a>
+          </article>
+          <article class="card">
+            <span class="badge">Trending</span>
+            <h3>Friends Trip Deals</h3>
+            <p>Group flight deals, flexible dates, budget stays, fun activities, and easy split-booking options.</p>
+            <a href="#plans" class="card-link">Explore friends trips →</a>
+          </article>
+          <article class="card">
+            <span class="badge">Corporate</span>
+            <h3>Business Meeting Travel</h3>
+            <p>Fast bookings, airport lounge access, meeting-ready stays, premium schedules, and invoice-ready plans.</p>
+            <a href="#plans" class="card-link">Explore business travel →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light-section" id="plans">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-tag">Featured Plans</p>
+          <h2>Curated plans users can book instantly</h2>
+        </div>
+        <div class="plans-grid">
+          <article class="plan-card highlight">
+            <div class="plan-top">
+              <span>Paris, France</span>
+              <strong>$1,499</strong>
+            </div>
+            <h3>Romantic Honeymoon in Paris</h3>
+            <p>5 nights • 2 travelers • breakfast included • airport pickup</p>
+            <ul>
+              <li>Eiffel Tower dinner cruise</li>
+              <li>Luxury hotel stay</li>
+              <li>Visa assistance available</li>
+            </ul>
+            <button class="btn btn-primary">Book Now</button>
+          </article>
+          <article class="plan-card">
+            <div class="plan-top">
+              <span>Dubai, UAE</span>
+              <strong>$899</strong>
+            </div>
+            <h3>Friends Adventure in Dubai</h3>
+            <p>4 nights • desert safari • city pass • nightlife add-ons</p>
+            <ul>
+              <li>Group discounts</li>
+              <li>Budget to premium hotels</li>
+              <li>Airport-hotel transfers</li>
+            </ul>
+            <button class="btn btn-outline">Reserve Seats</button>
+          </article>
+          <article class="plan-card">
+            <div class="plan-top">
+              <span>Singapore</span>
+              <strong>$1,099</strong>
+            </div>
+            <h3>Executive Business Trip</h3>
+            <p>3 nights • premium hotel • Wi-Fi • meeting-ready package</p>
+            <ul>
+              <li>Priority boarding options</li>
+              <li>Conference venue support</li>
+              <li>Corporate invoice included</li>
+            </ul>
+            <button class="btn btn-outline">Plan Meeting Trip</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="offers">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-tag red-text">Limited Offers</p>
+          <h2>Hot deals that make users click fast</h2>
+        </div>
+        <div class="offer-banner">
+          <div>
+            <span class="offer-pill">Red Hot Deal</span>
+            <h3>Save up to 35% on international return flights</h3>
+            <p>Apply festive offer codes, early-bird savings, and partner hotel discounts across selected routes.</p>
+          </div>
+          <a href="#book" class="btn btn-primary">Grab Offer</a>
+        </div>
+        <div class="cards-grid three compact-gap">
+          <article class="offer-card">
+            <h4>Couples Special</h4>
+            <p>Free breakfast + romantic room decor on selected honeymoon packages.</p>
+          </article>
+          <article class="offer-card">
+            <h4>Business Saver</h4>
+            <p>Exclusive weekday fares for corporate travel and executive hotel bookings.</p>
+          </article>
+          <article class="offer-card">
+            <h4>Group Escape</h4>
+            <p>Friends trip pricing with bonus add-ons on 4+ traveler bookings.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section light-section" id="tracking">
+      <div class="container tracking-grid">
+        <div>
+          <p class="section-tag">Track & Manage</p>
+          <h2>Real-time itinerary and trip tracking</h2>
+          <p>Users can check booking status, flight timing, meeting schedules, stay details, and destination reminders in one dashboard-style layout.</p>
+          <div class="tracking-points">
+            <div>✔ Live booking status updates</div>
+            <div>✔ Flight departure reminders</div>
+            <div>✔ Business meeting trip timeline</div>
+            <div>✔ Hotel and transfer confirmations</div>
+          </div>
+        </div>
+        <div class="tracker-card">
+          <div class="tracker-header">
+            <span>Booking ID</span>
+            <strong>#SB-82491</strong>
+          </div>
+          <div class="tracker-status done">Ticket Confirmed</div>
+          <div class="tracker-status active">Airport Transfer Scheduled</div>
+          <div class="tracker-status">Hotel Check-in Ready</div>
+          <div class="tracker-status">Destination Guide Sent</div>
+          <button class="btn btn-outline btn-full">Track My Trip</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="why-us">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-tag">Why Choose SkyBound</p>
+          <h2>Professional look, smooth flow, strong booking intent</h2>
+        </div>
+        <div class="cards-grid four">
+          <article class="mini-card"><h4>Worldwide Coverage</h4><p>Book tickets across global destinations with simple search flow.</p></article>
+          <article class="mini-card"><h4>Business Ready</h4><p>Corporate-friendly features for meetings, schedules, and invoices.</p></article>
+          <article class="mini-card"><h4>Romantic Packages</h4><p>Beautiful honeymoon plans with premium couple experiences.</p></article>
+          <article class="mini-card"><h4>Responsive Design</h4><p>Made to feel smooth on mobile, tablet, and desktop screens.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="logo footer-logo">Sky<span>Bound</span></a>
+        <p>Travel smarter for holidays, honeymoons, business meetings, and global flight bookings.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="about.html">About Us</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms & Conditions</a>
+        <a href="disclaimer.html">Disclaimer</a>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Email: support@skyboundtravels.com</p>
+        <p>Phone: +00 1234 567 890</p>
+        <p>Open: 24/7 Travel Desk</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="popup-overlay" id="tripPopup" aria-hidden="true">
+    <div class="popup-box">
+      <button class="popup-close" id="closePopup" aria-label="Close popup">×</button>
+      <p class="popup-tag">Choose Your Main Trip</p>
+      <h3>What are you planning today?</h3>
+      <p class="popup-text">Pick a journey type to continue. If no option is selected, the page will redirect to your main website automatically.</p>
+      <div class="popup-buttons">
+        <button class="btn btn-primary popup-option" data-choice="honeymoon">Honeymoon</button>
+        <button class="btn btn-outline popup-option" data-choice="friends">Friends Trip</button>
+        <button class="btn btn-outline popup-option" data-choice="business">Business Meeting</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
